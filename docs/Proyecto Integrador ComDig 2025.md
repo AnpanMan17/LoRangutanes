@@ -12,7 +12,7 @@ Utilizar una celda de la Jupyter Notebook para desarrollar la matematica y/o ló
 **Test:** Si el codificador y decodificador se encuentran bien diseñados, bajo esta condición de funcionamiento debe dar un BER=0, cualquiera sea la cantidad de bits generados.
 
 
-![image](https://hackmd.io/_uploads/S1jyIUkfWg.png)
+![Diseño del Codificador-Decodificador](images/design_encoder_decoder.png)
 
 # Diseño del Waveform Former - n-Tuple former
 
@@ -20,9 +20,9 @@ Agregar a la Jupyter Notebook utilizada anteriormente, la implementación del wa
 
 Utilizar una celda de la Jupyter Notebook para desarrollar la matematica y/o lógica utilizada en el algoritmo propuesto por ud.
 
-Test: Si el Waveform Former y el n-Tuple Former se encuentran bien diseñados, bajo esta condición de funcionamiento debe dar un SER=0, cualquiera sea la cantidad de bits generados. 
+**Test:** Si el Waveform Former y el n-Tuple Former se encuentran bien diseñados, bajo esta condición de funcionamiento debe dar un SER=0, cualquiera sea la cantidad de bits generados. 
 
-![image](https://hackmd.io/_uploads/H1IrIUkGbx.png)
+![Diseño del Waveform Former - n-Tuple former](images/WaveformFormerDesign_nTupleFormer.png)
 
 # Implementación del ruido del Canal
 
@@ -34,7 +34,7 @@ La notebook resultante debe ser capaz de reproducir la curva de BER correspondie
 
 Utilizar ademas una celda de la Jupyter Notebook para desarrollar la matematica, conceptualizar la teoría y/o lógica utilizada en el algoritmo propuesto por ud.
 
-![image](https://hackmd.io/_uploads/SJkaLUyzZe.png)
+![Implementación del ruido del Canal](images/Channel_Noise_Implementation.png)
 
 # Implementación de un canal selectivo en frecuencia
 
@@ -44,17 +44,17 @@ La notebook resultante debe ser capaz de reproducir la curva de BER correspondie
 
 Utilizar ademas una celda de la Jupyter Notebook para desarrollar la matematica, conceptualizar la teoría y/o lógica utilizada en el algoritmo propuesto por ud.
 
-![image](https://hackmd.io/_uploads/ryjvv8kfbe.png)
+![Implementación de un canal selectivo en frecuencia](images/Implementation_of_a_frequency_selective_channel.png)
 
 # Implementación del sistema LoRa en el SDR
 
 A partir del Paper de referencia "From Demodulation to Decoding: Toward Complete LoRa PHY Understanding and Implementation" implementar la transmisión de tramas LoRa en el transmisor
 
-![image](https://hackmd.io/_uploads/HJaGuUyzbe.png)
+![Implementación del sistema LoRa en el SDR](images/Implementation_of_the_LoRa_system_in_the_SDR.png)
 
 y las etapas de Dechirping, Window Alignment, Peak Merging y clock Recovery en el receptor 
 
-![image](https://hackmd.io/_uploads/BkaQdU1M-l.png)
+![Implementación del sistema LoRa en el SDR](images/LoRa_demodulation_stages.png)
 
 Probar el sistema futilizando en los SDRs para el envío de mensajes cortos.
 
