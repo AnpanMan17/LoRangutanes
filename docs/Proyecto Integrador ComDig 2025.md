@@ -61,3 +61,33 @@ Probar el sistema futilizando en los SDRs para el envío de mensajes cortos.
 Utilizar ademas una celda de la Jupyter Notebook para desarrollar la matematica, conceptualizar la teoría y/o lógica utilizada en el algoritmo propuesto por ud.
 
 ### **Nota:** Para optimizar el rendimiento de las etapas a diseñar utilizar los recursos brindados por la biblioteca numpy, evitando utilizar listas.
+
+# Proyecto integrador año 2025
+A continuación se detallan los módulos que componen el trabajo integrador. Las especificaciones  de los mismos son las publicadas durante la cursada.
+
+1) Diseño de Codificador-Decodificador. Publicado el martes, 6 de mayo de 2025
+
+2) Diseño de Waveformer - M-Tuple Former. Publicado el martes, 6 de mayo de 2025
+
+3) Implementación del ruido del canal. Publicado el domingo, 1 de junio de 2025,
+
+4) Implementación de un canal selectivo en frecuencia. Publicado el domingo, 1 de junio de 2025, 00:00
+
+5) Implementación de LORA en SDR. Publicado el viernes, 6 de junio de 2025.
+
+* > 5a. Transmisión y detección de símbolos LORA con un solo SDR (loopback digital y loopback por antena)
+* > 5b. Preambulo y detector de trama
+* > 5c. Alineación de ventana
+* > 5d. Peak Merging (Combinación de picos)
+* > 5e. Recuperación de portadora
+* > 5f. Recuperación de tiempo
+* > 5g. Curvas de BER vs. tiempo con 2 SDRs y transmisión-recepción de un mensaje: ¡Hola Com Dig! Ejemplo:
+
+![¡Hola Com Dig!](images/HolaComDig.png)
+
+Rubrica (información nueva)
+En el aula virtual no está  publicada la rúbrica. A continuación se detalla la misma.
+
+Suficiente (4 cuatro): deben estar correctamente realizados y explicados (en coloquio) los módulos 1), 2),3),4) y 5a)
+
+Al valor anterior se suma 1 punto por cada uno de los sgtes. módulos: b),c),d),e),f) y g) correctamente realizados y explicados.
